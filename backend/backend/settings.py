@@ -107,17 +107,17 @@ WSGI_APPLICATION = "backend.wsgi.application"
 #         'PORT': 3306,
 #     }
 # }
-
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.mysql',
-'NAME': 'enis_tp', # Database name created in MySQL container
-'USER': 'root', # MySQL root user
-'PASSWORD': 'yourpassword', # The MySQL root password you set when starting the
-'HOST': 'mysql-db', # The name of the MySQL container
-'PORT': '3306', # Port of the MySQL container
+'NAME': 'enis_tp',
+'USER': 'dbuser',
+'PASSWORD': 'DBpassword2024',
+'HOST': 'endpoint of rds ',
+'PORT': 3306,
 }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

@@ -4,9 +4,8 @@ import { ACCESS_TOKEN } from "./constants";
 const apiUrl = "http";
 
 const api = axios.create({
-  baseURL: "https://54.209.31.180/"
+  baseURL: "https://3.88.86.63/"
   });
-  
 
 api.interceptors.request.use(
   (config) => {
